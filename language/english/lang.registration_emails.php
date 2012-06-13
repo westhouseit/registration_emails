@@ -17,7 +17,7 @@ $lang = array(
 
 'system_from_name' =>               'System Sender Name',
 'system_from_email' =>              'System Sender Email',
-'date_format' =>                    'Date display Format',
+'date_format' =>                    'Date Display Format',
 
 // IGNORE
 ''=>'');
