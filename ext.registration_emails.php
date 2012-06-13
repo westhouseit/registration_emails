@@ -7,7 +7,7 @@
  * 
  * @package   Registration Emails
  * @version   1.0
- * @author    Justin Koivisto <justin@creativearc.com>
+ * @author    Justin Koivisto <justin.koivisto@gmail.com>
  * @copyright Copyright © 2012 Justin Koivisto
  * @license   LGPL: http://www.gnu.org/licenses/lgpl.html
  * @link      http://koivi.com/ee-registration-emails
@@ -54,15 +54,6 @@ class Registration_emails_ext {
         'class'     => __CLASS__,
         'method'    => 'member_member_register',
         'hook'      => 'member_member_register',
-        'settings'  => '',
-        'priority'  => 10, // last thing to fire
-        'version'   => $this->version,
-        'enabled'   => 'y'
-      ));
-      $this->EE->db->insert('extensions', array(
-        'class'     => __CLASS__,
-        'method'    => 'template_fetch_template',
-        'hook'      => 'template_fetch_template',
         'settings'  => '',
         'priority'  => 10, // last thing to fire
         'version'   => $this->version,
