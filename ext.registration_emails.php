@@ -6,9 +6,9 @@
  * specific fields to create directories in the file structure.
  * 
  * @package   Registration Emails
- * @version   1.0
+ * @version   1.1
  * @author    Justin Koivisto <justin.koivisto@gmail.com>
- * @copyright Copyright © 2012 Justin Koivisto
+ * @copyright Copyright Â© 2012 Justin Koivisto
  * @license   LGPL: http://www.gnu.org/licenses/lgpl.html
  * @link      http://koivi.com/ee-registration-emails
  */
@@ -19,7 +19,7 @@ class Registration_emails_ext {
 // =================================================
   public $settings         = array();
     public $name           =  'Registration Emails';
-    public $version        =  '1.0';
+    public $version        =  '1.1';
     public $description    =  'Custom registration welcome and admin notification emails using templates';
     public $settings_exist =  'y';
     public $docs_url       =  'http://koivi.com/Registration Emails';
@@ -234,7 +234,6 @@ class Registration_emails_ext {
       , exp_members.language
       , exp_members.time_format
       , exp_members.timezone
-      , exp_members.daylight_savings
       , exp_member_groups.group_title
       , exp_member_groups.group_description
       , exp_member_data.*
